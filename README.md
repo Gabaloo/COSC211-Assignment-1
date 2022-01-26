@@ -1,5 +1,5 @@
 # COSC211-Assignment-1
-Assignment Puropose:
+Assignment Purpose:
   Reformat date.java to use Google Styles
   Update data types to var for readInput method under date.java
   Update switch statements for 3 methods: getMonth, monthString, and monthOK.
