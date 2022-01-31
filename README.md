@@ -5,6 +5,10 @@ Assignment Purpose:
   Update switch statements for 3 methods: getMonth, monthString, and monthOK.
   Test all updates using JUnit.
   
-Two sets of tests exist, one for the readInput method. This tests two sets of values when creating instances of the date class.
-The second set of tests is for the getMonth method.  This checks with a month input as a string and as an integer.
+Three sets of tests exist, one for the readInput method. This tests three sets of values when creating instances of the date class.
+Two sets of values use integers, 1 and 12 for the month.  One set uses a string to refer to the month.  All values are verified correct using the getMonth method.
+
+The second set of tests checks monthOK.  This verifies "January" and "December" are recognized as months, while the string "Not a month" is recognized as invalid.
+
+The final set of tests checks monthString.  This verifies month integers 1 and 12 can be correctly identified as "January" and "December" respectively.
   
